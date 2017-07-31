@@ -1,18 +1,24 @@
 function basicOp(operation, value1, value2) {
-
-  switch (operation) {
+    let result;
+    switch (operation) {
 
     case '+':
-      return value1 + value2;
-
+        result=value1 + value2;
+        
+        break;  
     case '*':
-      return value1 * value2;
-
+        result=value1 * value2;
+        break;
     case '/':
-      return value1 / value2;
-
+        result=value1 / value2;
+        break;
     case '-':
-      return value1 - value2;
-
-
-  }
+        result=value1 - value2;
+          break;
+    default:
+        result = null;
+    
+    
+    }
+    return result;
+}

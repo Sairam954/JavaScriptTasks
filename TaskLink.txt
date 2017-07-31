@@ -3,3 +3,15 @@ http://www.codewars.com/kata/printing-array-elements-with-comma-delimiters
 http://www.codewars.com/kata/opposite-number
 http://www.codewars.com/kata/basic-mathematical-operations
 http://www.codewars.com/kata/transportation-on-vacation
+25/07/2017
+http://www.codewars.com/kata/calculating-with-functions
+http://www.codewars.com/kata/get-the-middle-character
+http://www.codewars.com/kata/partition-on
+http://www.codewars.com/kata/word-count
+27/07/2017
+http://www.codewars.com/kata/can-you-keep-a-secret
+http://www.codewars.com/kata/closures-and-scopes/train/javascript
+http://www.codewars.com/kata/a-function-within-a-function
+http://www.codewars.com/kata/prefill-an-array
+
+ 
