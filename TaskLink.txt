@@ -19,6 +19,11 @@ http://www.codewars.com/kata/a-chain-adding-function
 http://www.codewars.com/kata/function-cache
 http://www.codewars.com/kata/function-composition
 http://www.codewars.com/kata/function-composition-1
+3/08/2017
+http://www.codewars.com/kata/array-helpers
+http://www.codewars.com/kata/extract-nested-object-reference
+http://www.codewars.com/kata/new-with-apply
+http://www.codewars.com/kata/santaclausable-interface
  
 
  

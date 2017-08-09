@@ -1,6 +1,6 @@
 function partitionOn(pred, items) {
-    let trueItems = items.filter(pred);
-    let falseItems = [];
+    let trueItems = items.filter(pred),s
+        falseItems = [];
     items.forEach(function (item) {
 
         if (!pred(item)) {

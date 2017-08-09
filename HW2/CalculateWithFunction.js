@@ -1,118 +1,63 @@
-var expression = [];
-var equation;
+function zero(func) {
+    return func ? func(0) : 0;
+};
 
-function zero(innerFunction) {
-    expression.unshift('0');
+function one(func) {
+    return func ? func(1) : 1;
+};
 
-    if (expression.length === 3) {
-        equation = expression.join('');
-        expression = [];
-        return math.evaluate(equation);
-    }
-}
+function two(func) {
+    return func ? func(2) : 2;
+};
 
-function one(innerFunction) {
-    expression.unshift('1');
+function three(func) {
+    return func ? func(3) : 3;
+};
 
-    if (expression.length === 3) {
-        equation = expression.join('');
-        expression = [];
-        return math.evaluate(equation);
-    }
-}
+function four(func) {
+    return func ? func(4) : 4;
+};
 
-function two(innerFunction) {
-    expression.unshift('2');
+function five(func) {
+    return func ? func(5) : 5;
+};
 
-    if (expression.length === 3) {
-        equation = expression.join('');
-        expression = [];
-        return math.evaluate(equation);
-    }
-}
+function six(func) {
+    return func ? func(6) : 6;
+};
 
-function three(innerFunction) {
-    expression.unshift('3');
+function seven(func) {
+    return func ? func(7) : 7;
+};
 
-    if (expression.length === 3) {
-        equation = expression.join('');
-        expression = [];
-        return math.evaluate(equation);
-    }
-}
+function eight(func) {
+    return func ? func(8) : 8;
+};
 
-function four(innerFunction) {
-    expression.unshift('4');
+function nine(func) {
+    return func ? func(9) : 9;
+};
 
-    if (expression.length === 3) {
-        equation = expression.join('');
-        expression = [];
-        return math.evaluate(equation);
-    }
-}
+function plus(b) {
+    return function (a) {
+        return a + b;
+    };
+};
 
-function five(innerFunction) {
-    expression.unshift('5');
+function minus(b) {
+    return function (a) {
+        return a - b;
+    };
+};
 
-    if (expression.length === 3) {
-        equation = expression.join('');
-        expression = [];
-        return math.evaluate(equation);
-    }
-}
+function times(b) {
+    return function (a) {
+        return a * b;
+    };
+};
 
-function six(innerFunction) {
-    expression.unshift('6');
-
-    if (expression.length === 3) {
-        equation = expression.join('');
-        expression = [];
-        return math.evaluate(equation);
-    }
-}
-
-function seven(innerFunction) {
-    expression.unshift('7');
-
-    if (expression.length === 3) {
-        equation = expression.join('');
-        expression = [];
-        return math.evaluate(equation);
-    }
-}
-
-function eight(innerFunction) {
-    expression.unshift('8');
-
-    if (expression.length === 3) {
-        equation = expression.join('');
-        expression = [];
-        return math.evaluate(equation);
-    }
-}
-
-function nine(innerFunction) {
-    expression.unshift('9');
-
-    if (expression.length === 3) {
-        equation = expression.join('');
-        expression = [];
-        return math.evaluate(equation);
-    }
-}
-
-function plus(innerFunction) {
-    expression.unshift('+');
-}
-
-function minus(innerFunction) {
-    expression.unshift('-');
-}
-
-function times(innerFunction) {
-    expression.unshift('*');
-}
-
-function dividedBy(innerFunction) {
-    expression.unshift('/');
-}
+function dividedBy(b) {
+    return function (a) {
+        return a / b;
+    };
+};
